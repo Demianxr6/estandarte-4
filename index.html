@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominando la Fuerza del CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Menú de navegación con posición STICKY -->
+    <header class="navbar">
+        <nav>
+            <a href="#personajes">Personajes</a>
+            <a href="#naves">Naves</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección Hero Principal -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>DOMINANDO LA FUERZA DEL CSS</h1>
+            <p>Posicionamiento, Filtros y Transformaciones</p>
+        </div>
+    </section>
+
+    <!-- Sección de Tarjetas -->
+    <section id="personajes" class="cards-section">
+        <div class="container">
+            
+            <!-- Tarjeta 1: Luke Skywalker (Usa relative y absolute) -->
+            <div class="card">
+                <div class="card-img-container">
+                    <!-- Imagen con filtro inicial y object-fit -->
+                    <img src="Nueva carpeta/luke-skaywalker-star-wars.jpg" alt="Luke Skywalker" class="filtered-img">
+                    <!-- Etiqueta con posición absolute -->
+                    <span class="badge jedi">JEDI</span>
+                </div>
+                <div class="card-content">
+                    <h3>Luke Skywalker</h3>
+                    <p>El último caballero Jedi.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img-container">
+                    <img src="Nueva carpeta/images.jpg" alt="Darth Vader" class="filtered-img">
+                    <span class="badge sith">SITH</span>
+                </div>
+                <div class="card-content">
+                    <h3>Darth Vader</h3>
+                    <p>Señor oscuro del Imperio.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <a href="#" class="btn-top" title="Ir arriba">&#8593;</a>
+
+</body>
+</html>
